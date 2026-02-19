@@ -1,0 +1,28 @@
+# Python virtual environment
+spark-pagila/.venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code or IDE configs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spark / Java / JDBC jars
+*.jar
+*.log
+
+# Docker volumes / postgres data
+pgdata/
+*.backup
+
+# PGAdmin configs
+pagila/pgadmin/
